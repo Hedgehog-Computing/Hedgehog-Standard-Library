@@ -1,23 +1,21 @@
 # Hedgehog-Standard-Library
 A library that can be imported directly at Hedgehog Lab
 
-Each file contains a single function, which can be imported in this way, for example:
+Each file contains a single function, which can be imported using **"*import YOUR_URL"**, for example:
 
-// http://github.com/....../hedgehog-standard/library/qr.hs
+```js
+// qr.js at http://github.com/....../hedgehog-standard/library/qr.hs
 
 function qr(A){
     let q=mat(); let r = mat(); class QRResult{q;r;}
     ...
     return qrResult;
 }
+```
 
-
-// Use in your script at Hedgehog Lab
-// Hedgehog Lab will automatically search at 
-// http://github.com/....../hedgehog-standard/library/
-// and check if qr.hs exists, and import the qr.hs automatically 
-// if it exists at this repo.
-// You can still *import the long URL if you like
+You can easily import the file qr.hs and function qr(A) above in this way:
+```js
 *import qr
-let A = getMyMatrix();
+A = getMyMatrix();
 print( qr(A).q );
+```
