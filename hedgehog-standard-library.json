@@ -1,4 +1,4 @@
 {
     "root": "https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/",
-    "libs" : ["magic", "qr"]
+    "libs" : ["magic", "fibonacci"]
 }
