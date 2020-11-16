@@ -1,3 +1,4 @@
 {
-    "fibonacci": "https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/fibonacci.hs"
+    "root": "https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/",
+    "lib" : ["magic", "qr"]
 }

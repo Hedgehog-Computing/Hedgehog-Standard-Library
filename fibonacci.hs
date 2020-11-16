@@ -1,5 +1,5 @@
 /*
-Function Fibonacci
+Function fibonacci
 Author: lidangzzz
 Input: x: number
 Output: fibonacci of x
