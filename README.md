@@ -1,7 +1,7 @@
 # Hedgehog-Standard-Library
 A library that can be imported directly at Hedgehog Lab
 
-Each file contains a single function, which can be imported using **"*import YOUR_URL"**, for example:
+Each file contains a single function, which can be imported using **"*import FileName"**, for example:
 
 ```js
 // qr.js at http://github.com/....../hedgehog-standard/library/qr.hs
