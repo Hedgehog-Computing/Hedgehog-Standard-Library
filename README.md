@@ -35,3 +35,13 @@ is the same as
 ```js
 myQR = *import  https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/qr.hs
 ```
+
+or 
+
+```js
+*import qr
+```
+is also the same as 
+```js
+*import  https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/qr.hs
+```
