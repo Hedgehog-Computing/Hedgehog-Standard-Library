@@ -26,9 +26,6 @@ Notice: Each function library must be registered at the list of ```includes``` a
 ```js
 {
     "name": "Hedgehog-Standard-Library",
-    "docs":"https://github.com/Hedgehog-Computing/Hedgehog-Standard-Library/blob/main/README.md",
-    "website": "https://github.com/Hedgehog-Computing/Hedgehog-Standard-Library",
-    "author": "lidangzzz",
     "includes" : ["magic", "qr", "fibonacci"]
 }
 ```
