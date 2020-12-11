@@ -27,7 +27,7 @@ Notice: Each function library must be registered at the list of ```includes``` a
     "includes" : ["magic", "qr", "fibonacci"]
 }
 ```
-in which user can import any valid libraries LIB_NAME from the list of "libs", and Hedgehog Lab will automatically include the corresponding "hhs" file by concatenating string ```"root" + LIB_NAME + ".js"```, for example:
+in which user can import any valid libraries LIB_NAME from the list of "libs", and Hedgehog Lab will automatically include the corresponding "hhs" file by concatenating string ```"root" + LIB_NAME + ".hhs"```, for example:
 ```js
 myQR = *import std:qr
 ```
