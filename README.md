@@ -25,7 +25,10 @@ print( magic(15) );
 Notice: Each function library must be registered at the list of ```includes``` at the ```hedgehog-package.json``` file. It includes a json file like:
 ```js
 {
-    "name": "https://raw.githubusercontent.com/Hedgehog-Computing/Hedgehog-Standard-Library/main/",
+    "name": "Hedgehog-Standard-Library",
+    "docs":"https://github.com/Hedgehog-Computing/Hedgehog-Standard-Library/blob/main/README.md",
+    "website": "https://github.com/Hedgehog-Computing/Hedgehog-Standard-Library",
+    "author": "lidangzzz",
     "includes" : ["magic", "qr", "fibonacci"]
 }
 ```
