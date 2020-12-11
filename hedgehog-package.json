@@ -1,0 +1,4 @@
+{
+  "name":"Hedgehog-Standard-Library",
+  "includes" : ["magic", "fibonacci"]
+}
