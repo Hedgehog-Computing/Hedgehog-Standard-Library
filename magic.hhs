@@ -34,7 +34,6 @@ function magic(n){
             if (i < 0)
                 i = n - 1;
         }
-        console.log("ij: " + i + ' ' + j)
         if (returnMat.val[i][j] !== 0) // 2nd condition
         {
             j -= 2;
